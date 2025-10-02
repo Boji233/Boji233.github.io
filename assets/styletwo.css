@@ -1,0 +1,133 @@
+.menu {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(192, 195, 255);
+    font-family: 'sans-serif';
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 15px; 
+}
+
+.menu li {
+  float: left;
+  margin-left: 10px;
+}
+.logo{
+    margin-right: 500px;
+}
+.menu li a {
+  display: block;
+  color:rgb(47, 20, 87);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size:50px;
+  font-family: Coolfont;
+}
+@font-face {
+  font-family: Coolfont;
+  src: url(rct2.otf);
+}
+
+.menu li a:hover {
+  background-color: rgb(200, 166, 251);
+}
+.about{
+   background-color: rgb(192, 195, 255);
+  border-radius: 15px;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-size: 40px;
+  font-family: Coolfont;
+  padding-left: 40px;
+  padding-right: 50px;
+  font-weight: lighter;
+  color:rgb(17, 13, 60);
+}
+.about h1{
+  text-align: center;
+  font-size: 80px;
+  font-family: Coolfont;
+  margin-top: 20px;
+  padding-top: 50px;
+  font-weight: lighter;
+   color:rgb(17, 13, 60);
+
+}
+.about h2{
+  font-size: 70px;
+  font-family: Coolfont;
+  font-weight: lighter;
+   color:rgb(17, 13, 60);
+   margin-left: 50px;
+   margin-bottom: 10px;
+
+}
+.about p{
+  font-family: Coolfont;
+   font-size: 50px;
+   font-weight: lighter;
+   margin-top: 30px;
+}
+.socials{
+  background-color: rgb(192, 195, 255);
+  border-radius: 25px;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-size: 40px;
+  font-family: Coolfont;
+  padding-left: 40px;
+  padding-right: 50px;
+  font-weight: lighter;
+  color:rgb(17, 13, 60);
+
+}
+.socials h2{
+  font-size: 50px;
+  font-family: Coolfont;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-weight: lighter;
+   color:rgb(17, 13, 60);
+   text-align: center;
+   padding-bottom: 10px;
+}
+.aboutme{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight:lighter;
+}
+.aboutme img{
+  margin-left: 30px;
+}
+
+.intr{
+    display: flex;
+     font-weight:light;
+     margin-right: -6%;
+     margin-left: -6%;
+    padding-left: 6%;
+  }
+.intr p{
+  padding-bottom: -10%;
+  padding-top: -35%;
+}
+.intr img{
+  padding-top: 10%;
+  padding-left: -15%;
+  padding-right: -10%;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}

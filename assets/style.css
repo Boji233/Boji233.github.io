@@ -1,0 +1,231 @@
+.menu {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(192, 195, 255);
+    font-family: 'sans-serif';
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 15px; 
+}
+
+.menu li {
+  float: left;
+  margin-left: 10px;
+}
+.logo{
+    margin-right: 500px;
+}
+.menu li a {
+  display: block;
+  color:rgb(47, 20, 87);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size:50px;
+  font-family: Coolfont;
+}
+@font-face {
+  font-family: Coolfont;
+  src: url(rct2.otf);
+}
+
+.menu li a:hover {
+  background-color: rgb(200, 166, 251);
+}
+.ict{
+  width: 16%;
+  padding: 30px;
+  float: right;
+  margin-right: 50px;
+  background-color: rgb(47, 20, 87);
+  border-left: 3px solid rgb(192, 195, 255);
+  border-radius: 25px;
+ color: rgb(192, 195, 255);
+ font-size: 20px;
+ margin-top: -990px;
+}
+.ict li {
+   font-family: Coolfont;
+   font-size: 35px;
+   font-weight: lighter;
+   margin-top: 30px;
+}
+.ict h3{
+  font-size: 50px;
+  text-align: center;
+  margin-top: -10px;
+  font-weight: lighter;
+  font-family: Coolfont;
+}
+.ict a{
+  font-family: Coolfont;
+  color: rgb(192, 195, 255);
+  padding-bottom: 1%;
+}
+.info{
+  background-color: rgb(192, 195, 255);
+  border-radius: 25px;
+  margin-right: 400px;
+  margin-left: 250px;
+  font-size: 40px;
+  font-family: Coolfont;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+.info h1{
+  text-align: center;
+  font-size: 80px;
+  font-family: Coolfont;
+  margin-top: 20px;
+  padding-top: 50px;
+  font-weight: lighter;
+   color:rgb(17, 13, 60);
+
+}
+.info h2{
+  text-align: center;
+  font-size: 50px;
+  color:rgb(47, 20, 87);
+  font-family: Coolfont;
+  font-weight: lighter;
+}
+.info h4{
+  text-align: left;
+  font-size: 50px;
+  margin-left: 20px;
+  font-family: Coolfont;
+  color:rgb(47, 20, 87);
+  font-weight: lighter;
+  
+}
+.skills li{
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.kangel{
+   display: flex;
+    margin-left: 700px;
+    margin-top: -550px;
+}
+.troll{
+ display: flex;
+ margin-left: 60%;
+}
+.credit h2{
+  margin-top: 1%;
+  padding-top: 1%;
+}
+.credit{
+  background-color: rgb(192, 195, 255);
+  border-radius: 25px;
+  margin-right: 300px;
+  margin-left: 250px;
+  font-size: 20px;
+  font-family: Coolfont;
+  padding-left: 40px;
+  padding-right: 50px;
+  font-weight: lighter;
+  color:rgb(17, 13, 60);
+  padding-bottom: 1%;
+}
+
+.education{
+  background-color: rgb(192, 195, 255);
+  border-radius: 52px;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-size: 60px;
+  font-family: Coolfont;
+  font-weight: light;
+  padding-left: 40px;
+  padding-right: 50px;
+  color: rgb(17, 13, 60);
+  padding-bottom: 5px;
+  text-align: center;
+  padding-top: 5px;
+}
+.useful{
+background-color: rgb(192, 195, 255);
+  border-radius: 25px;
+  margin-right: 300px;
+  margin-left: 250px;
+  font-size: 40px;
+  font-family: Coolfont;
+  padding-left: 40px;
+  padding-right: 50px;
+  font-weight: lighter;
+  color:rgb(17, 13, 60);
+  margin-top: 10%;
+  padding-bottom: 1%;
+}
+.useful h2{
+  padding-top: 5%;
+}
+
+/* End of index css */
+.faq{
+   background-color: rgb(192, 195, 255);
+  border-radius: 25px;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-size: 40px;
+  font-family: Coolfont;
+  padding-left: 40px;
+  padding-right: 50px;
+  font-weight: lighter;
+  color:rgb(17, 13, 60);
+}
+.faq ol{
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.faq h2{
+  font-size: 50px;
+  font-family: Coolfont;
+  margin-top: 20px;
+  padding-top: 40px;
+  font-weight: lighter;
+   color:rgb(17, 13, 60);
+
+}
+.faq ul{
+  list-style-type: none;
+   margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+table{
+  font-family: Coolfont;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgb(192, 195, 255);
+  font-size: 30px;
+  margin-top: 3%;
+}
+td, th{
+  color:rgb(17, 13, 60);
+  border: 2px solid  rgb(17, 13, 60);
+  text-align: left;
+  padding: 8px;
+}
+.trollface {
+    width: -50px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
