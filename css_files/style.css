@@ -33,6 +33,7 @@
 .menu li a:hover {
   background-color: rgb(200, 166, 251);
 }
+/* end of menu  */
 .ict{
   width: 16%;
   padding: 30px;
@@ -63,6 +64,8 @@
   color: rgb(192, 195, 255);
   padding-bottom: 1%;
 }
+/* ict is the content of the aside menu related to hz ict program  */
+/* Some intorduction and why I decided to study ICT*/
 .info{
   background-color: rgb(192, 195, 255);
   border-radius: 25px;
@@ -97,12 +100,13 @@
   font-family: Coolfont;
   color:rgb(47, 20, 87);
   font-weight: lighter;
-  
 }
+/* Soft skills  */
 .skills li{
   margin-top: 20px;
   padding-bottom: 20px;
 }
+/* Gifts */
 .kangel{
    display: flex;
     margin-left: 700px;
@@ -116,12 +120,12 @@
   margin-top: 1%;
   padding-top: 1%;
 }
-.credit{
+.credit {
   background-color: rgb(192, 195, 255);
   border-radius: 25px;
   margin-right: 300px;
   margin-left: 250px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: Coolfont;
   padding-left: 40px;
   padding-right: 50px;
@@ -129,22 +133,14 @@
   color:rgb(17, 13, 60);
   padding-bottom: 1%;
 }
-
-.education{
-  background-color: rgb(192, 195, 255);
-  border-radius: 52px;
-  margin-right: 300px;
-  margin-left: 300px;
-  font-size: 60px;
+.credit a{
   font-family: Coolfont;
-  font-weight: light;
-  padding-left: 40px;
-  padding-right: 50px;
-  color: rgb(17, 13, 60);
-  padding-bottom: 5px;
-  text-align: center;
-  padding-top: 5px;
+  font-weight: lighter;
+  color:rgb(75, 40, 127);
+  font-size: 25px;
+
 }
+/* The 5 required links  */
 .useful{
 background-color: rgb(192, 195, 255);
   border-radius: 25px;
@@ -161,6 +157,12 @@ background-color: rgb(192, 195, 255);
 }
 .useful h2{
   padding-top: 5%;
+}
+.useful a{
+  font-family: Coolfont;
+  font-weight: lighter;
+  color:rgb(75, 40, 127);
+  font-size: 40px;
 }
 
 /* End of index css */
@@ -194,17 +196,10 @@ background-color: rgb(192, 195, 255);
    margin-top: 20px;
   padding-bottom: 20px;
 }
-
-.column {
-  float: left;
-  width: 50%;
+.faq a{
+  color: rgb(75, 40, 127)
 }
-
-.row:after {
-  content:"";
-  display: table;
-  clear: both;
-}
+/* The dashboard  */
 table{
   font-family: Coolfont;
   border-collapse: collapse;
@@ -219,6 +214,7 @@ td, th{
   text-align: left;
   padding: 8px;
 }
+/* Self explandatory  */
 .trollface {
     width: -50px;
     height: 600px;
@@ -228,4 +224,18 @@ td, th{
     align-items: center;
     margin-top: 200px;
 }
-
+/* The article but it's not related to education but game development now since that topic is more interesting to me */
+.education{
+  background-color: rgb(192, 195, 255);
+  border-radius: 52px;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-size: 60px;
+  font-family: Coolfont;
+  font-weight: light;
+  padding-left: 40px;
+  padding-right: 50px;
+  color: rgb(17, 13, 60);
+  padding-bottom: 5px;
+  text-align: center;
+   padding-top: 5px;}

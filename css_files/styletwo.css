@@ -33,6 +33,8 @@
 .menu li a:hover {
   background-color: rgb(200, 166, 251);
 }
+/* end of menu  */
+/* This whole css is for the about me page might add art page and css for it will be here as well  */
 .about{
    background-color: rgb(192, 195, 255);
   border-radius: 15px;
@@ -130,4 +132,7 @@
   content:"";
   display: table;
   clear: both;
+}
+.socials a{
+  color:rgb(75, 40, 127)
 }
